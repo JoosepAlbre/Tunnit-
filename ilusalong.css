@@ -1,6 +1,17 @@
+body {
+    background-image: url("taust.jpg");
+    background-size: auto;
+}
+
 h1 {
-    font-size: 90px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #d54d7b;
+    font-family: "Great Vibes", cursive;
+    font-size: 75px;
+    line-height: 160px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-shadow: 0 2px 2px #ffa6c2;
 }
 
 .column {
@@ -15,14 +26,30 @@ h1 {
 }
 
 .link {
-    background-color: #2c7fbf;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
+    font-family: fantasy;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 24px;
+    margin: 4px 7px;
     cursor: pointer;
+}
+
+.pilt {
+    width: 25%;
+    float: right;
+}
+
+.instagram {
+    width: 30px;
+    padding-top: 2px;
+}
+
+.fb {
+    width: 40px;
+}
+
+.twitter {
+    width: 40px;
 }
